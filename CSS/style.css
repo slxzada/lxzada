@@ -1,0 +1,88 @@
+/* star selector selects all styles in page, and anything in these brackets changes everything */
+* {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;   /* or you can just type "margin" if the px value is the same for all margins */
+}                           /* e.g., margin: _____ */
+
+h1 {
+    color:lightpink; 
+}
+
+strong {
+    font-weight: normal;
+}
+
+p {
+    color:lightcoral;
+    background:cornsilk; 
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    line-height: 20px; /* this is written in pixels (px) */
+    letter-spacing: normal; /* also in px */
+    text-decoration: underline;
+    font-size: 15px; 
+}
+
+/* this is a comment in CSS */
+
+body {
+    background: blanchedalmond;
+}
+
+/* use a # to reference a particular paragraph */
+#quote {   
+    color:darkolivegreen;
+    background: burlywood;
+}
+
+/* use a . to reference a class (a class is like a paragraph grouping) */
+.new-class {
+    font-size: 20px;
+    background-color: honeydew;
+}
+
+/* ; in the selector = pseudoclass? */
+a {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: lightseagreen;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: mediumpurple;
+    text-decoration: none;
+}
+
+/* div */
+#container {
+    background: darkcyan;
+    border-style: dotted;
+    border-color: blueviolet;
+    border-width: 8px;
+    width: 300px;
+}
+
+#shape {
+    height: 300px;
+    width: 300px;
+    background-color: darksalmon;
+}
+
+#circle {
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    border-radius: 200px;
+}
+
+img {
+    width: 200px;
+    height: 400 px;
+}
